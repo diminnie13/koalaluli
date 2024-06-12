@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koalaluli's Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bb5;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            background-color: #0288d1;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .icon {
+            margin-right: 8px;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #007bb5;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Koalaluli</h1>
+    </header>
+
+    <nav>
+        <a href="#about"><span class="icon">🪶</span>About Me</a>
+        <a href="#blog"><span class="icon">✉️</span>Blog Entries</a>
+        <a href="#diary"><span class="icon">📔</span>Diary</a>
+        <a href="#questions"><span class="icon">❓</span>Questions</a>
+        <a href="#motivation"><span class="icon">✨</span>Motivation</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Luli, but you can call me Koalaluli. I am an engineering student with a passion for sharing my thoughts and experiences. I'll be sharing my glow up journey with ya'll and hoping on inspire someone into becoming their best self! Welcome to my personal webpage!</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog Entries</h2>
+        <p>Here you'll find my latest blog posts about various topics.</p>
+    </section>
+
+    <section id="diary">
+        <h2>Diary</h2>
+        <p>This section is my personal diary where I share my day-to-day thoughts and experiences.</p>
+    </section>
+
+    <section id="questions">
+        <h2>Questions</h2>
+        <p>Have any questions for me? Feel free to ask them here!</p>
+    </section>
+
+    <section id="motivation">
+        <h2>Motivation</h2>
+        <p>Need some inspiration? Check out my <a href="https://www.pinterest.com/lu19ar/" target="_blank">Pinterest board</a> full of motivational quotes and images.</p>
+    </section>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.pinterest.com/lu19ar/" target="_blank" style="color: white;">Pinterest</a> and <a href="https://www.instagram.com/lulichaos/" target="_blank" style="color: white;">Instagram</a>.</p>
+    </footer>
+
+</body>
+</html>
